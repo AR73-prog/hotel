@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Hotel Swing</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-gray shadow-sm">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand text-black d-flex align-items-center" href="#">
+                Hotel Swing
+            </a>
+
+            <!-- Tombol Toggle untuk mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu Navbar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#jenis-kamar">Jenis Kamar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#tentang-kami">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#testimoni">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#galeri">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#fasilitas">Fasilitas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Konten -->
+    <main class="container">
+
+        <!-- Tombol Pesan Sekarang dengan Background Gambar -->
+        <section class="bg-primary text-white py-5" style="background-image: url('gambar/bg.jpeg'); background-size: cover; background-position: center;">
+            <div class="container text-center">
+                <h3 class="mb-3 display-4 fw-bold">Rencanakan Liburan Anda dengan Mudah</h3>
+                <p class="mb-4 lead">Pesan kamar Anda sekarang dan nikmati pengalaman menginap yang tak terlupakan di Hotel Swing. 
+                    Kami siap menyambut kedatangan Anda dengan fasilitas terbaik!</p>
+                <a href="pemesanan.html" class="btn btn-light btn-lg px-5 py-3 rounded-pill shadow-lg">Pesan Sekarang</a>
+            </div>
+        </section>
+
+
+        <!-- Jenis Kamar -->
+        <section id="jenis-kamar" class="my-5">
+            <div class="container">
+                <h2 class="mb-4 text-center">Jenis Kamar</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Kamar 1 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-img-container">
+                                <img src="gambar/deluxe.jpg" class="card-img-top object-fit-cover" alt="Ruang Deluxe">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ruang Deluxe</h5>
+                                <p class="price">Rp 500.000 / Malam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kamar 2 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-img-container">
+                                <img src="gambar/Family.jpg" class="card-img-top object-fit-cover" alt="Ruang Family">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ruang Family</h5>
+                                <p class="price">Rp 700.000 / Malam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kamar 3 -->
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-img-container">
+                                <img src="gambar/Standard.jpg" class="card-img-top object-fit-cover" alt="Ruang Standard">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ruang Standard</h5>
+                                <p class="price">Rp 300.000 / Malam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tentang Kami -->
+        <section id="tentang-kami" class="my-5">
+            <div class="container">
+                <h2 class="mb-4 text-center">Tentang Kami</h2>
+                <p class="text-center">Hotel Swing adalah destinasi utama bagi tamu yang mencari kemewahan dan kenyamanan. Terletak di pusat kota, 
+                    kami menawarkan berbagai jenis kamar, fasilitas, dan layanan yang dirancang untuk memenuhi semua kebutuhan Anda. 
+                    Baik Anda datang untuk urusan bisnis atau liburan, staf kami yang berdedikasi akan memastikan pengalaman menginap yang tak terlupakan.</p>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section id="testimoni" class="my-5 bg-light py-5">
+            <div class="container">
+                <h2 class="mb-4 text-center">Apa Kata Tamu Kami</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Testimonial 1 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <p class="card-text">"Pengalaman menginap yang luar biasa di Hotel Swing! Kamar sangat indah, dan stafnya sangat ramah. Pasti akan kembali!"</p>
+                                <footer class="blockquote-footer">John Doe, <cite title="Source Title">New York</cite></footer>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <p class="card-text">"Lokasi hotel sangat sempurna untuk menjelajahi kota. Fasilitas yang disediakan sangat luar biasa. Sangat merekomendasikan!"</p>
+                                <footer class="blockquote-footer">Jane Smith, <cite title="Source Title">California</cite></footer>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <p class="card-text">"Sebuah tempat peristirahatan yang tenang dengan pelayanan yang luar biasa. Saya sangat menikmati sarapan dan pemandangan dari kamar."</p>
+                                <footer class="blockquote-footer">Samuel Brown, <cite title="Source Title">Texas</cite></footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeri -->
+        <section id="galeri" class="my-5">
+            <div class="container">
+                <h2 class="mb-4 text-center">Galeri</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Gambar Galeri 1 -->
+                    <div class="col">
+                        <div class="card-img-container shadow-sm">
+                            <img src="gambar/Family.jpg" class="card-img-top gallery-image" alt="Gambar Galeri 1">
+                        </div>
+                    </div>
+                    <!-- Gambar Galeri 2 -->
+                    <div class="col">
+                        <div class="card-img-container shadow-sm">
+                            <img src="gambar/Hotel.jpg" class="card-img-top gallery-image" alt="Gambar Galeri 2">
+                        </div>
+                    </div>
+                    <!-- Gambar Galeri 3 -->
+                    <div class="col">
+                        <div class="card-img-container shadow-sm">
+                            <img src="gambar/pemandangan.jpg" class="card-img-top gallery-image" alt="Gambar Galeri 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fasilitas -->
+        <section id="fasilitas" class="my-5">
+            <div class="container">
+                <h2 class="mb-4 text-center">Fasilitas</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- Fasilitas 1 -->
+                    <div class="col text-center">
+                        <i class="bi bi-wifi facility-icon"></i>
+                        <h5 class="mt-3">Wi-Fi Gratis</h5>
+                        <p class="text-muted">Nikmati akses internet gratis di seluruh area hotel.</p>
+                    </div>
+                    <!-- Fasilitas 2 -->
+                    <div class="col text-center">
+                        <i class="bi bi-cup-hot facility-icon"></i>
+                        <h5 class="mt-3">Sarapan</h5>
+                        <p class="text-muted">Sarapan lezat tersedia setiap pagi.</p>
+                    </div>
+                    <!-- Fasilitas 3 -->
+                    <div class="col text-center">
+                        <i class="bi bi-geo-alt facility-icon"></i>
+                        <h5 class="mt-3">Lokasi Strategis</h5>
+                        <p class="text-muted">Dekat dengan destinasi wisata utama.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3 border-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Bagian Kiri -->
+            <p class="mb-0">
+                © 2024 Hotel Swing
+            </p>
+
+            <!-- Bagian Kanan -->
+            <a href="index.html" class="d-flex align-items-center text-decoration-none">
+                <span class="ms-2 fw-bold text-white">Hotel Swing</span>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

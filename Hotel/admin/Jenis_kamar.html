@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Swing</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary shadow-sm">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center text-light " href="index.html">
+                Hotel Swing
+            </a>
+
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Jenis_kamar.html">Jenis Kamar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="fasilitas.html">Fasilitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="data_pemesanan.html">Data Pemesanan</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Konten -->
+    <main class="container my-5">
+        <div class="container mt-5">
+            <h1 class="mb-4">Kelola Jenis Kamar</h1>
+            
+            <!-- Tombol Tambah -->
+            <div class="mb-4">
+                <button class="btn btn-primary">Tambah Jenis Kamar</button>
+            </div>
+    
+            <!-- Tabel Jenis Kamar -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>No</th>
+                            <th>Nama Jenis Kamar</th>
+                            <th>Deskripsi</th>
+                            <th>Harga Per Malam</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Contoh Baris Data -->
+                        <tr>
+                            <td>1</td>
+                            <td>Ruang Deluxe</td>
+                            <td>Kamar luas dengan pemandangan taman</td>
+                            <td>Rp 500.000</td>
+                            <td class="text-center action-buttons">
+                                <i class="bi bi-pencil-square btn-edit" title="Edit"></i>
+                                <i class="bi bi-trash btn-delete ms-3" title="Hapus"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Ruang Family</td>
+                            <td>Kamar nyaman untuk keluarga</td>
+                            <td>Rp 700.000</td>
+                            <td class="text-center action-buttons">
+                                <i class="bi bi-pencil-square btn-edit" title="Edit"></i>
+                                <i class="bi bi-trash btn-delete ms-3" title="Hapus"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ruang Standard</td>
+                            <td>Kamar nyaman dengan fasilitas lengkap</td>
+                            <td>Rp 300.000</td>
+                            <td class="text-center action-buttons">
+                                <i class="bi bi-pencil-square btn-edit" title="Edit"></i>
+                                <i class="bi bi-trash btn-delete ms-3" title="Hapus"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 border-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Left Section -->
+            <p class="mb-0 text-white">
+                © 2024 Muhamad Ridwan Iskandar
+            </p>
+            
+            <!-- Right Section -->
+            <a href="index.html" class="d-flex align-items-center text-decoration-none">
+                <span class="ms-2 fw-bold text-white">Hotel Swing</span>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
